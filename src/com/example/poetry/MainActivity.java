@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 
 		cv = new ContentValues();
 		cv.put("name", "thing");
-		cv.put("price", 14.6);
+		cv.put("price", 55.6);
 		db.insert("book", null, cv);
 	}
 
